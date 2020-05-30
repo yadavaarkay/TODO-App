@@ -1,0 +1,100 @@
+html{
+    background-image: url(/images/todoImage.jpg);
+}
+
+/* This is the style we will be using for body */
+body{
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    border:black solid 1px;
+}
+
+/* Below is the style for header of the body */
+#heading{
+    background-color: midnightblue;
+    color: white;
+    height: 100px;
+}
+h1{
+    text-align: center;
+}
+
+/* These are the set of styles which are used to create form and its structure  */
+#description{
+    border: lightgrey solid 1px;
+    padding: 1em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+#oneTask{
+    background-color: slategray;
+    color: white;
+}
+
+#bothDiv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: lightgrey solid 1px;
+}
+#firstDiv{
+    display: inline-block;
+    padding: 1em;
+    font-weight: bold;
+    width: 35vw;
+}
+#secondDiv{
+    display: inline-block;
+    padding: 1em;
+    border-left: lightgrey solid 1px;
+    width: 35vw;
+    font-weight: bold;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+/* These are the set of styles which are needed to display our task as a list */
+#oneTask{
+    padding: 1em;
+}
+
+#tick a{
+    display: inline-block;
+    color:red;
+    margin: 5px;
+    margin-right: 20px;
+}
+#desDate{
+    display: inline-block;
+    font-weight: bold;
+}
+#exceptTick{
+    display: flex;
+    justify-content: space-between;
+}
+#oneTask{
+    
+    border-bottom: white solid 0.1px;
+   
+}
+#descriptionDate{
+    display: flex;
+    
+}
+#category{
+    width: 90px;
+    height: 40px;
+    background-color: midnightblue;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    
+}

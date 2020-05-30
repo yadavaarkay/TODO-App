@@ -1,0 +1,6 @@
+npm init
+npm install express --save
+install ejs in the currrent directory
+Using view engine - ejs. 
+Install mongoose
+Connect with database and use Robo3T to visualize the data which is being stored
