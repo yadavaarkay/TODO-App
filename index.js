@@ -96,6 +96,12 @@ app.get('/delete-task', function(req,res){
 });
 
 
+// This will work as default route when page is not found
+app.use(function(req, res){
+    res.sendStatus(404);
+ });
+
+
 //This is the callback function 
 app.listen(port, function(err){
     if(err){
