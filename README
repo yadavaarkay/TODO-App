@@ -1,6 +1,3 @@
-# Images for 
-![GitHub Logo](/images/logo.png)
-
 npm init
 npm install express --save
 install ejs in the currrent directory
