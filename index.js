@@ -1,4 +1,4 @@
-//We need to require express if we want to use it as framework for our project
+//We need to require express to use
 const express = require('express');
 
 
@@ -101,8 +101,7 @@ app.use(function(req, res){
     res.sendStatus(404);
  });
 
-
-//This is the callback function 
+ 
 app.listen(port, function(err){
     if(err){
         console.log('Error in running the server', err);
