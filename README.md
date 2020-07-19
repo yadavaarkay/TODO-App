@@ -1,14 +1,16 @@
 # TO-DO List 
 full stack TODO List web app build with Express.js
-
+Tech Stack involved : HTML,CSS, JS, Node.js, Express.js, EJS templating engine, MongoDB.
 
 # Pre-Requisites - 
 Node NPM (Node Package Manager) MongoDB
 
-# Dependencies for the project - 
+# Dependencies - 
 Express Ejs Mongoose Nodemon
+Run "npm install" to install all the dependencis
 
-# How to run - 
+
+# How to use - 
 Run command "mongod" on terminal to establish connection with MongoDB.(Assuming MongoDB is already installed in your system) <br/>
 In another terminal run "nodemon index.js" or "node index.js" to start the server. <br/>
 The application works on port 8000, so open "http://localhost:8000" for the home page. <br/>
