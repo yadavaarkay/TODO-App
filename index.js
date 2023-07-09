@@ -2,7 +2,7 @@
 const express = require('express');
 
 
-//We need to require path to use view files
+//We need to require path to use view files 
 const path = require('path');
 
 
