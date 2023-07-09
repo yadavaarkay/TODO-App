@@ -19,7 +19,7 @@ const Task = require('./models/todo');
 const app = express();
 
 
-//This is to tell express that we will be using ejs as our view engine
+//This is to tell express that we will be using ejs as our view engine  
 app.set('view engine', 'ejs');
 
 
